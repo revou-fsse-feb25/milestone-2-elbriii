@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const memoryBoard = document.getElementById("memoryBoard");
   const memoryTimer = document.getElementById("memoryTimer");
   const memoryStart = document.getElementById("memoryStart");
-  let memoryTimeLeft = 60;
+  let memoryTimeLeft = 30;
   let memoryInterval;
   let flippedCards = [];
   let matchedPairs = 0;
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Reset game state
-    memoryTimeLeft = 60;
+    memoryTimeLeft = 30;
     matchedPairs = 0;
     flippedCards = [];
     memoryGameActive = true;
